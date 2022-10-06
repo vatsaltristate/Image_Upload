@@ -53,3 +53,6 @@ app.use('/', router);
 app.listen(4000, (err) => {
   console.log("your server is starting http://localhost:4000");
 });
+
+
+// Make a uploads name folder
