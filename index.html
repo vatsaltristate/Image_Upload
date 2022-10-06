@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Upload</title>
+  </head>
+  <body>
+    <center>
+      <form method="POST" action="/img" enctype="multipart/form-data">
+        <div>
+          <label>Select your profile picture:</label>
+          <input type="file" name="image" />
+        </div>
+        <div>
+          <input type="submit" name="btn_upload_profile_pic" value="Upload" />
+        </div>
+      </form>
+    </center>
+  </body>
+</html>
